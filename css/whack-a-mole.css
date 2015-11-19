@@ -1,0 +1,79 @@
+/* Some CSS must be finished */
+
+html {
+  background-color: #990000; /* a bright beautiful blue */
+  font-family: Tahoma;
+}
+
+#main-header, #sub-header {
+  text-align: center;
+}
+
+#game-starter {
+  margin:  auto;
+  display: table;
+  background-color: red; 
+  color: white;
+  font-weight: bold; 
+  padding: 10px;
+  border-top-right-radius: 5px; 
+  border-top-left-radius: 5px; 
+  border-bottom-right-radius: 5px; 
+  border-bottom-left-radius: 5px; 
+  border-color: red;
+  font: bold;
+
+ /* Make the game starter button nicer to look at */
+ /* Using your own judegement about "nice" */
+}
+
+/* Make the game-starter button change colors when the mouse 
+   is hovering over it */
+
+#mole-field {
+  width: 278px;
+  height: 278px;
+  margin: 30px auto;
+  background-color: rgb(160, 82, 45); /* a grand garden blue */
+  background-clip: padding-box;
+  border-radius: 10px;
+  border: 5px solid #136E23; /* a darker green, like hedges */
+}
+
+/* Use the following selectors style moles and mole-holes 
+   HINT: the mole.png file is 62px by 62px */
+#mole-field td {
+
+}
+
+ #mole-field tr td .mole-hole {
+margin: auto;
+background: url(" ../images/oval.jpg");
+width: 100px;
+height: 100px; 
+background-position: center;
+border-radius: 50%;
+}
+
+/* Make sure every mole appears as the mole.png file in this folder 
+   Bonus points for making the mouse turn into heart.png when the 
+   mouse hovers over a mole! */
+.mole {
+background: url(" ../images/Ari.png"); 
+background-position: center;
+width: 100%;
+height: 100%;
+border-radius: 50%;
+
+}
+
+/* When a mole has been clicked, it's in love.
+   make sure when a mole has been clicked it gets the 
+   foundLove.png as it's background */
+.in-love {
+  margin: auto;
+  width: 100%;
+  height: 100%; 
+  border-radius: 50%;
+
+}
